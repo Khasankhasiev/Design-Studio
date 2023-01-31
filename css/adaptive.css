@@ -1,0 +1,364 @@
+@media only screen and (min-width: 1620px) {
+    .container {
+        max-width: 1256px;
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width:1154px) {
+
+    .gallery-container .slider-image {
+        background-image: url(../images/gallery-image-one.png);
+        display: block;
+        background-size: cover;
+        height: 556px;
+    }
+
+    .gallery-container {
+        padding-top: 131px;
+    }
+
+    .gallery {
+        display: none;
+    }
+}
+
+@media only screen and (max-width:1095px) {
+
+    .header__button {
+        display: none;
+    }
+
+}
+
+@media only screen and (max-width:878px) {
+
+    .title, .subtitle {
+        font-size: 22px;
+        line-height: 138.6%;
+    }
+
+    .container {
+        max-width: 339px;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .wrapper {
+        max-width: 339px;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .header__list, .header__button {
+        display: none;
+    }
+
+    .header__container {
+        justify-content: space-around;
+        height: 57px;
+    }
+
+    .phone {
+        color: #fff;
+        text-decoration: none;
+    }
+
+    .hero {
+        background-image: url(../images/hero-background-mobile.png);
+        background-size: 100% 100%;
+        background-position: center;
+        height: 467px;
+        position: relative;
+        z-index: 1;
+    }
+
+    .hero__title {
+        font-size: 23px;
+        line-height: 31px;
+    }
+
+    .hero__text {
+        font-size: 14px;
+        line-height: 19px;
+    }
+
+    .hero__btn {
+        display: flex;
+        flex-direction: column;
+        gap: 26px;
+    }
+
+    .section__description {
+        width: 100%;
+        padding-top: 36px;
+    }
+
+    .section__title {
+        font-size: 22px;
+        line-height: 30px;
+        text-align: center;
+        letter-spacing: -0.07em;
+        margin-bottom: 22px;
+    }
+
+    .section__text {
+        font-weight: 400;
+        font-size: 11px;
+        line-height: 17px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+    
+    .slider-image {
+        display: block;
+    }
+
+    .description-list {
+        grid-template-columns: 129px 181px;
+    }
+
+    .item-title {
+        font-size: 14px;
+        line-height: 19px;
+    }
+
+    .item-text {
+        font-size: 11px;
+        line-height: 18px;
+    }
+
+     .section__depiction {
+        display: none;
+    }
+
+    .slider {
+        display: none;
+    }
+
+    .section:nth-of-type(2) {
+        padding-bottom: 350px;
+        background-color: #181818;
+    }
+
+    .section {
+        background-color: #181818;
+    }
+   
+    .control-image {
+        background-image: url('../images/online-control-mobile.png');
+        background-size: 100% 100%;
+        height: 207px;
+        margin-bottom: 28px;
+    }
+    
+    .circle {
+        width: 70px;
+    }
+
+   .section__paragraph {
+        font-size: 11px;
+        line-height: 19px;
+        text-align: center;
+        color: #FFFFFF;
+        margin: 34px 0;
+        max-width: 340px;
+        width: 100%;
+   }
+
+   .section__form {
+        justify-content: flex-start;
+        margin-top: 61px;
+   }
+
+   .section__text-field {
+        order: -2;
+        margin-bottom: 63px;
+   }
+
+   .section__form .section__text-field:last-child {
+        margin-bottom: 26px;
+   }
+
+   .text-field__label {
+        font-size: 13px;
+        line-height: 21px;
+        color: rgba(255, 255, 255, 0.5);
+   }
+
+   .text-field__input {
+        background-color: #181818;
+        line-height: 19px;
+        border-color: #FFFFFF;
+        width: 340px;
+   }
+
+    .text-field__input::placeholder {
+        font-size: 14px;
+        line-height: 19px;
+        color: #FFFFFF;
+   }
+
+    .control-checkbox {
+        margin-bottom: 62px;
+        order: -1;
+   }
+
+    .section .wrapper-control {
+        padding-bottom: 0px;
+    }
+
+    .checkbox__label {
+        font-size: 14px;
+        line-height: 163.68%;
+        color: #FFFFFF;
+   }
+
+    .form-button {
+        max-width: 340px;
+        width: 100%;
+        margin-bottom: -25px;
+   }
+
+    .section-repair {
+        background-color: #FFFFFF;
+        padding-top: 83px;
+   }
+
+    .section-control {
+    padding-bottom: 0;
+   }
+
+    .section-request {
+        display: none;
+    }
+
+    .section__card {
+        padding-top: 40px;
+        row-gap: 246px;
+    }
+
+    .card-block {
+        margin: 0;
+        margin-top: 294px;
+    }
+
+    .section-gallery {
+        padding: 55px 0 0 0;
+        padding-top: 55px;
+        background-color: white;
+    }
+
+    .gallery-container .slider-image {
+        background-image: url(../images/fantasy-mobile.png);
+        background-size: 100% 100%;
+        display: block;
+        height: 241px;
+        margin: 0;
+    }
+
+    .gallery-container {
+        flex-direction: column;
+        gap: 24px;
+        padding: 0;
+        margin-bottom: -120px;
+    }
+
+    .gallery-list {
+        display: none;
+    }
+
+    .section__background-image {
+        background-image: none;
+        background-color: white;
+        height: auto;
+    }
+
+    .section__title {
+        margin: 0;
+    }
+    
+    .section-clients {
+        display: none;
+    }
+
+    .section-contacts {
+        background-image: none;
+        position: static;
+        padding-top: 172px;
+    }
+
+    .section__contacts-form {
+        row-gap: 0;
+        margin-top: 52px;
+        align-items: flex-start;
+    }
+
+    .form-wrapper {
+        position: static;
+        padding: 0;
+    }
+
+    .contacts-subtitle {
+        margin-top: 0;
+    }
+
+    .wrapper-login {
+        flex-direction: column;
+    }
+
+    .text-field-last .form-input {
+        width: 340px;
+        margin-bottom: 21px;
+    }
+
+    .form-input {
+        margin-bottom: 63px;
+    }
+
+    .section__subtitle-white {
+        font-size: 20px;
+        line-height: 28px;
+        padding-bottom: 0;
+    }
+
+    .form-checkbox {
+        margin-bottom: 67px;
+    }
+
+    .field-button {
+        margin-bottom: 46px;
+    }
+
+    .map {
+        order: -1;
+        margin-bottom: 41px;
+    }
+
+    .network {
+        margin-bottom: 49px;
+    }
+
+    .footer {
+        display: none;
+    }
+}
+
+@media only screen and (max-width:345px) {
+
+    .text-field__input {
+        max-width: 340px;
+        width: 100%;
+    }
+
+    .text-field-last .form-input {
+        max-width: 340px;
+        width: 100%;
+    }
+
+    .description-list {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    
+}
