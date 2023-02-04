@@ -176,6 +176,7 @@ body * {
     background-color: rgba(0, 0, 0, 0);
     border: 0;
     position: absolute;
+    cursor: pointer;
 }
 
 .photoslider:first-child {
@@ -184,7 +185,7 @@ body * {
 }
 
 .photoslider:last-child {
-    top: 42%;
+    top: 40%;
     left: 79%;
     transform: rotate(180deg);
 }
@@ -731,11 +732,9 @@ body * {
 
 .action {
     display: flex;
-    justify-content: end;
+    justify-content: flex-start;
     align-items: center;
-    margin-right: 210px;
     margin-top: 38px;
-
 }
 
 .action-logo {

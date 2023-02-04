@@ -39,15 +39,19 @@
     }
 
     .container {
-        max-width: 339px;
+        max-width: 300px;
         width: 100%;
         margin: 0 auto;
     }
 
     .wrapper {
-        max-width: 339px;
+        max-width: 300px;
         width: 100%;
         margin: 0 auto;
+    }
+
+    .subtitle {
+        margin-bottom: 17px;
     }
 
     .header__list, .header__button {
@@ -144,6 +148,10 @@
     .section {
         background-color: #181818;
     }
+
+    .header-image {
+        margin-bottom: 40px;
+    }
    
     .control-image {
         background-image: url('../images/online-control-mobile.png');
@@ -234,7 +242,7 @@
     }
 
     .section__card {
-        padding-top: 40px;
+        padding-top: 0;
         row-gap: 246px;
     }
 
@@ -272,10 +280,6 @@
         background-image: none;
         background-color: white;
         height: auto;
-    }
-
-    .section__title {
-        margin: 0;
     }
     
     .section-clients {
